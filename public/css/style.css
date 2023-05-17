@@ -1,0 +1,16 @@
+
+
+.blog-item {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .blog-item h2 {
+    color: #333;
+  }
+
+  .blog-item p {
+    color: #777;
+  }
+
