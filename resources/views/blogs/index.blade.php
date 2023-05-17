@@ -1,4 +1,4 @@
-<!-- hmmmmmmm tartaglia hmmmmm -->
+<!-- the blog got deleted and i cant restore it for some reason -->
 
 
 
