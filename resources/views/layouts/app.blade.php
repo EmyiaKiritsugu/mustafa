@@ -1,17 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('css/style.css')}}">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
 <!-- hmmmmmmmmmmmmmmm tartaglia hhmmmmmmmmmmmm -->
 
 
-@extends('layouts.app')
 
-@section('content')
-    <h1>{{ $blog->title }}</h1>
-    <p>{{ $blog->content }}</p>
-    <<img src="{{ asset('public/yoru.jpg') }}" alt="Blog Image">
-    <a href="{{ route('blogs.edit', $blog) }}">Update</a>
-    <form action="{{ route('blogs.destroy', $blog) }}" method="POST" style="display: inline-block;">
-        @csrf
-        @method('DELETE')
-        <button type="submit">Delete</button>
-    </form>
-    <a href="{{ route('home') }}">Back to Home</a>
-@endsection
+@yield('content')
+
+
+
+</body>
+</html>
